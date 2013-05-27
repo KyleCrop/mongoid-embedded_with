@@ -1,2 +1,6 @@
+puts 'require mongoid'
 require 'mongoid'
-require 'mongoid/relations/embedded_with/many'
+puts 'require mongoid/embedded_with'
+require_relative 'mongoid/embedded_with'
+puts 'require mongoid/relations/embedded_with/many'
+require_relative 'mongoid/relations/embedded_with/many'

@@ -1,6 +1,7 @@
 class School
   # Dependencies
   include Mongoid::Document
+  include Mongoid::EmbeddedWith
 
   # Relations
   embeds_many :classrooms

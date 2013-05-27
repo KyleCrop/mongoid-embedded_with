@@ -1,6 +1,7 @@
 class Course
   # Dependencies
   include Mongoid::Document
+  include Mongoid::EmbeddedWith
 
   # Relations
   embedded_in :school
